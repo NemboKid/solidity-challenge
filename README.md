@@ -1,10 +1,3 @@
-# Comment by Filip
-### Steps:
-- fork, truffle init, npm init
-- node modules: openzeppelin (for ERC20), chai and chai-as-promised for tests
-- did everything with `truffle test` in terminal, that's why the contracts aren't compiled. To do so: `truffle compile` + `truffle migrate`
-- Used Ganache GUI on port 7545 as private blockchain
-
 # challenge
 create and deploy (locally) an ERC20 token and a staking contract that will distribute rewards to stakers over time. No need for an app or UI. You can reuse published or open source code, but you must indicate the source and what you have modified.
 
